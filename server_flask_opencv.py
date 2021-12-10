@@ -73,7 +73,7 @@ def captureframe():
         ret, frame = cap.read()
         #cv.imshow('webcam',frame)
         video_frame=frame.copy()
-        cv.waitKey(20)
+        cv.waitKey(10)
         pass
     return
 
